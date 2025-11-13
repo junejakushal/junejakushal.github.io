@@ -703,6 +703,16 @@ func combineTranscriptions(transcriptions []string, filePaths []string) string {
 
 func handleDownload(w http.ResponseWriter, r *http.Request) {
 	filename := strings.TrimPrefix(r.URL.Path, "/download/")
+	
+	// Sanitize filename to prevent path traversal attacks
+	filename = filepath.Base(filename)
+	
+	// Validate filename format (should be transcript_session_<timestamp>.txt)
+	if !strings.HasPrefix(filename, "transcript_session_") || !strings.HasSuffix(filename, ".txt") {
+		http.Error(w, "Invalid filename", http.StatusBadRequest)
+		return
+	}
+	
 	filePath := filepath.Join(outputDir, filename)
 
 	if _, err := os.Stat(filePath); os.IsNotExist(err) {
