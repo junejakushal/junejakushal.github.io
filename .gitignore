@@ -5,3 +5,22 @@ _site
 vendor
 .bundle
 Gemfile.lock
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+go.work.sum
+audio-transcription
+
+# Application directories
+uploads/
+outputs/
+
+# Fly.io
+.fly/
