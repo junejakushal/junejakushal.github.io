@@ -15,10 +15,10 @@ import (
 )
 
 const (
-	uploadDir      = "./uploads"
-	outputDir      = "./outputs"
-	maxUploadSize  = 100 << 20 // 100 MB per file
-	assemblyAIURL  = "https://api.assemblyai.com"
+	uploadDir     = "./uploads"
+	outputDir     = "./outputs"
+	maxUploadSize = 100 << 20 // 100 MB per file
+	assemblyAIURL = "https://api.assemblyai.com"
 )
 
 type TranscriptionResponse struct {
@@ -458,7 +458,7 @@ func handleUpload(w http.ResponseWriter, r *http.Request) {
 	var filePaths []string
 	sessionID := fmt.Sprintf("session_%d", time.Now().Unix())
 	sessionDir := filepath.Join(uploadDir, sessionID)
-	
+
 	if err := os.MkdirAll(sessionDir, 0755); err != nil {
 		respondJSON(w, http.StatusInternalServerError, map[string]string{"error": "Failed to create upload directory"})
 		return
@@ -502,7 +502,7 @@ func handleUpload(w http.ResponseWriter, r *http.Request) {
 	// Save to output file
 	outputFilename := fmt.Sprintf("transcript_%s.txt", sessionID)
 	outputPath := filepath.Join(outputDir, outputFilename)
-	
+
 	if err := os.WriteFile(outputPath, []byte(combinedText), 0644); err != nil {
 		respondJSON(w, http.StatusInternalServerError, map[string]string{"error": "Failed to save transcript"})
 		return
@@ -703,16 +703,16 @@ func combineTranscriptions(transcriptions []string, filePaths []string) string {
 
 func handleDownload(w http.ResponseWriter, r *http.Request) {
 	filename := strings.TrimPrefix(r.URL.Path, "/download/")
-	
+
 	// Sanitize filename to prevent path traversal attacks
 	filename = filepath.Base(filename)
-	
+
 	// Validate filename format (should be transcript_session_<timestamp>.txt)
 	if !strings.HasPrefix(filename, "transcript_session_") || !strings.HasSuffix(filename, ".txt") {
 		http.Error(w, "Invalid filename", http.StatusBadRequest)
 		return
 	}
-	
+
 	filePath := filepath.Join(outputDir, filename)
 
 	if _, err := os.Stat(filePath); os.IsNotExist(err) {

@@ -17,6 +17,8 @@ Gemfile.lock
 go.work
 go.work.sum
 audio-transcription
+coverage.out
+coverage.html
 
 # Application directories
 uploads/
