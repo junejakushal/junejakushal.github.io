@@ -26,22 +26,22 @@
 		<h2 class="text-xs font-semibold tracking-widest uppercase text-gray-400">Links</h2>
 		<ul class="space-y-1.5 text-sm">
 			<li>
-				<a href="https://github.com" class="text-gray-700 hover:text-gray-900 transition-colors" target="_blank" rel="noopener noreferrer">
+				<a href="https://github.com/junejakushal" class="text-gray-700 hover:text-gray-900 transition-colors" target="_blank" rel="noopener noreferrer">
 					GitHub
 				</a>
 				<span class="text-gray-400 mx-2">/</span>
-				<span class="text-gray-500">@kushal</span>
+				<span class="text-gray-500">@junejakushal</span>
 			</li>
 			<li>
-				<a href="https://twitter.com" class="text-gray-700 hover:text-gray-900 transition-colors" target="_blank" rel="noopener noreferrer">
-					Twitter
+				<a href="https://in.linkedin.com/in/kushal-juneja-40133419a" class="text-gray-700 hover:text-gray-900 transition-colors" target="_blank" rel="noopener noreferrer">
+					LinkedIn
 				</a>
 				<span class="text-gray-400 mx-2">/</span>
-				<span class="text-gray-500">@kushal</span>
+				<span class="text-gray-500">Kushal Juneja</span>
 			</li>
 			<li>
-				<a href="mailto:hello@kushal.dev" class="text-gray-700 hover:text-gray-900 transition-colors">
-					hello@kushal.dev
+				<a href="mailto:b25079@astra.xlri.ac.in" class="text-gray-700 hover:text-gray-900 transition-colors">
+					b25079@astra.xlri.ac.in
 				</a>
 			</li>
 		</ul>
