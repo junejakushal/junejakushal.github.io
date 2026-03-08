@@ -5,20 +5,26 @@
 <section class="space-y-10">
 	<div>
 		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal</h1>
-		<p class="text-gray-500 text-sm">Software engineer &amp; tinkerer</p>
+		<p class="text-gray-500 text-sm">MBA @ XLRI · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
 	</div>
 
 	<div class="space-y-4 text-gray-700 leading-relaxed text-[15px]">
 		<p>
-			Hi! I'm Kushal. I build software, explore ideas, and write about the things I find interesting.
+			I'm an MBA student at XLRI Jamshedpur with a background in Computer Science from IIIT-Delhi,
+			where my thesis sat at the intersection of Climate Science and Deep Learning. Before business
+			school, I was an Analyst at Goldman Sachs in their Global Compliance and Engineering division.
 		</p>
 		<p>
-			I'm passionate about systems programming, developer tooling, and building things that are both
-			useful and well-crafted. I enjoy working close to the metal and understanding how things work
-			from first principles.
+			This summer I'll be joining the Unilever team as part of my MBA internship — excited to work
+			at the intersection of business and technology at scale.
 		</p>
 		<p>
-			When I'm not writing code, I'm likely reading, hiking, or tinkering with something new.
+			My interests span technology, finance, and sustainability. I'm currently exploring agentic AI,
+			scalable distributed systems, and the future of finance. Outside of work I'm learning French
+			and German, staying fit, and reading widely.
+		</p>
+		<p class="text-gray-500 text-sm italic">
+			Overprepare. Always. You can't wing it and assume someone else will do it for you.
 		</p>
 	</div>
 
