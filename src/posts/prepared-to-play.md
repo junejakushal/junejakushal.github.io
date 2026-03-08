@@ -2,6 +2,7 @@
 title: Prepared to Play
 date: 2026-03-08
 description: On the strange relationship between overpreparing and genuine curiosity — and why mastery in one domain might be the precondition for real play in another.
+pinned: true
 ---
 
 There is a Richard Feynman story I keep returning to.
@@ -49,3 +50,7 @@ The lesson, if there is one, is about sequence. You prepare deeply in the fundam
 I am trying to build the kind of foundations — in technology, in finance, in how organizations actually work — that will let me play seriously in whatever comes next. The aspiration to be a polymath is not about being superficially curious about everything. It is about being deep enough in enough things that the connections between them start to feel like play.
 
 The plate wobbles. I want to keep noticing that.
+
+---
+
+*I first encountered the framing of Feynman's spinning plates and Osterweil's Four Freedoms of Play together on [Chelsea Sierra Voss's website](https://csvoss.com/), where she writes about pursuing serious topics with the spirit of play. That pairing stuck with me long enough to become this essay.*

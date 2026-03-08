@@ -10,10 +10,15 @@ export async function load() {
 			title: mod.metadata?.title ?? slug,
 			date: mod.metadata?.date ?? '',
 			description: mod.metadata?.description ?? '',
+			pinned: mod.metadata?.pinned ?? false,
 		};
 	});
 
-	posts.sort((a, b) => (a.date < b.date ? 1 : -1));
+	// Pinned posts always first, then by date descending
+	posts.sort((a, b) => {
+		if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
+		return a.date < b.date ? 1 : -1;
+	});
 
 	return { posts };
 }
