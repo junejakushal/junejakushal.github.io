@@ -20,7 +20,7 @@
 	<header class="border-b border-gray-100">
 		<nav class="max-w-2xl mx-auto px-6 py-5 flex items-center justify-between">
 			<a href="/" class="text-sm font-medium tracking-wide text-gray-900 hover:text-gray-600 transition-colors">
-				kushal
+				Kushal Juneja
 			</a>
 			<div class="flex gap-6">
 				{#each links as link}
@@ -43,7 +43,7 @@
 
 	<footer class="border-t border-gray-100 mt-16">
 		<div class="max-w-2xl mx-auto px-6 py-8 text-center text-xs text-gray-400">
-			&copy; {new Date().getFullYear()} Kushal
+			&copy; {new Date().getFullYear()} Kushal Juneja
 		</div>
 	</footer>
 </div>

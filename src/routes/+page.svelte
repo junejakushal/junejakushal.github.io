@@ -4,7 +4,7 @@
 
 <section class="space-y-10">
 	<div>
-		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal</h1>
+		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal Juneja</h1>
 		<p class="text-gray-500 text-sm">MBA @ XLRI · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
 	</div>
 
