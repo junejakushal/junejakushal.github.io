@@ -9,7 +9,7 @@
 </script>
 
 <svelte:head>
-	<title>Kushal — About</title>
+	<title>Kushal | About</title>
 </svelte:head>
 
 <section class="space-y-10">
@@ -25,7 +25,7 @@
 			school, I was an Analyst at Goldman Sachs in their Global Compliance and Engineering division.
 		</p>
 		<p>
-			This summer I'll be joining the Unilever team as part of my MBA internship — excited to work
+			This summer I'll be joining the Unilever team as part of my MBA internship, excited to work
 			at the intersection of business and technology at scale.
 		</p>
 		<p>
