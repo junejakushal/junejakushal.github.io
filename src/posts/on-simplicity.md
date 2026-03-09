@@ -2,6 +2,7 @@
 title = "On Simplicity"
 date = "2026-03-01"
 description = "The hardest thing to build is something simple."
+draft = true
 +++
 
 The hardest thing to build is something simple.
