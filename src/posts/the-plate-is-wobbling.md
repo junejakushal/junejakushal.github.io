@@ -1,7 +1,7 @@
 +++
 title = "The Plate is Wobbling"
 date = "2026-03-09"
-description = "A day doing market immersion with a sales team — watching distribution, technology, and frontline instinct operate at once — and what it says about what an MBA might actually be for."
+description = "A day doing market immersion with a sales team, watching distribution, technology, and frontline instinct operate at once, and what it says about what an MBA might actually be for."
 +++
 
 In my last post, I wrote about Feynman's wobbling plate and the idea that preparation gives you the surplus to be curious. This week, I got to test that theory in the most literal way possible: walking through neighbourhood shops with a sales rep in a city I'd never been to, watching a distribution system I'd never thought about actually work.

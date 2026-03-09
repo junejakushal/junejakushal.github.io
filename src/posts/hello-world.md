@@ -1,7 +1,8 @@
 +++
 title = "Hello, World"
 date = "2026-03-08"
-description = "My first post — a small beginning."
+description = "My first post, a small beginning."
+draft = true
 +++
 
 This is my first post. I've been meaning to start writing for a while, and here we are.
