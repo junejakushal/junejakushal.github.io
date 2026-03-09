@@ -1,8 +1,8 @@
----
-title: Hello, World
-date: 2026-03-08
-description: My first post — a small beginning.
----
++++
+title = "Hello, World"
+date = "2026-03-08"
+description = "My first post — a small beginning."
++++
 
 This is my first post. I've been meaning to start writing for a while, and here we are.
 

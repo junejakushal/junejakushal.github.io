@@ -13,6 +13,10 @@ export async function load({ params }) {
 
 	const mod = await postModule() as any;
 
+	if (mod.metadata?.draft) {
+		throw error(404, 'Post not found');
+	}
+
 	return {
 		content: mod.default,
 		title: mod.metadata?.title ?? params.slug,
@@ -22,8 +26,10 @@ export async function load({ params }) {
 }
 
 export async function entries() {
-	const modules = import.meta.glob('/src/posts/*.md');
-	return Object.keys(modules).map((path) => ({
-		slug: path.split('/').pop()!.replace('.md', ''),
-	}));
+	const modules = import.meta.glob('/src/posts/*.md', { eager: true });
+	return Object.entries(modules)
+		.filter(([, mod]: [string, any]) => !mod.metadata?.draft)
+		.map(([path]) => ({
+			slug: path.split('/').pop()!.replace('.md', ''),
+		}));
 }

@@ -1,8 +1,8 @@
----
-title: On Simplicity
-date: 2026-03-01
-description: The hardest thing to build is something simple.
----
++++
+title = "On Simplicity"
+date = "2026-03-01"
+description = "The hardest thing to build is something simple."
++++
 
 The hardest thing to build is something simple.
 

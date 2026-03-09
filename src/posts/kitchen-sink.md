@@ -1,8 +1,8 @@
----
-title: Everything You Can Put in a Post
-date: 2026-03-05
-description: A reference post showing images, code, callouts, table of contents, anchor links, YouTube embeds, and Mermaid diagrams.
----
++++
+title = "Everything You Can Put in a Post"
+date = "2026-03-05"
+description = "A reference post showing images, code, callouts, table of contents, anchor links, YouTube embeds, and Mermaid diagrams."
++++
 
 <script>
   import Callout from '$lib/components/Callout.svelte';

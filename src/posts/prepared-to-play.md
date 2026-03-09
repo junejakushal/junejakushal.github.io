@@ -1,9 +1,9 @@
----
-title: Prepared to Play
-date: 2026-03-08
-description: On the strange relationship between overpreparing and genuine curiosity — and why mastery in one domain might be the precondition for real play in another.
-pinned: true
----
++++
+title = "Prepared to Play"
+date = "2026-03-08"
+description = "On the strange relationship between overpreparing and genuine curiosity — and why mastery in one domain might be the precondition for real play in another."
+pinned = true
++++
 
 There is a Richard Feynman story I keep returning to.
 
