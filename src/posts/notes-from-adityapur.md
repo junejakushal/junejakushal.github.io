@@ -1,94 +1,60 @@
 +++
 title = "Notes from Adityapur"
 date = "2026-03-09"
-description = "On advising a 57-year-old MSME on ESG, what the factory floor teaches you that the classroom cannot, and why sustainability in Tier 2 manufacturing is a harder problem than it looks."
+description = "On doing a live consulting project with an MSME in Jamshedpur, what a Goldman and CS background does and does not prepare you for, and what happens when you use Claude to prototype a sustainability dashboard on a shop floor."
 draft = true
 +++
 
-Utkal Auto Coach has been making tipper bodies in Adityapur Industrial Area, Jamshedpur, since 1967. The plant is 57 years old. About 400 people work there, roughly 300 of them contractual. The owner, Shibu, runs it with the kind of operational clarity that only comes from decades of surviving thin margins. His son Arhaan, a new entrant, is curious about solar panels, rainwater harvesting, and automation.
+Every MBA program has some version of a live project. You get assigned a real company, a real problem, and a semester to do something useful. XLRI calls it BAS. Our team was placed with Utkal Auto Coach, a Tier 2 vendor in Adityapur Industrial Area, Jamshedpur. They make tipper bodies for Tata Motors. 57 years old. About 400 workers. One major client accounting for 95 percent of revenue.
 
-Our team from XLRI has been working with them since December 2025 on an ESG Health Card, a sustainability report for FY 25-26, and a digital production dashboard. This post is a working account of what we found, what we got wrong, and what the factory floor teaches you that two semesters of strategy courses cannot.
+The brief: ESG Health Card, sustainability report, and a digital production dashboard.
 
-I am documenting the work as I go. Field notes and visit reports are in the [project repository](https://github.com/junejakushal/bas-utkal-project).
-
----
-
-## The 95 percent problem
-
-The first thing to understand about Utkal is that 95 percent of its revenue comes from Tata Motors. One client. One relationship. The language for this in strategy class is "bargaining power," and the textbook verdict is clear: you do not want to be here.
-
-The practical reality is more specific. Tata Motors runs a "Should Cost" department. Utkal submits a manufacturing cost of, say, 130 rupees per unit. Tata's team calculates their own figure, arrives at 110, and the gap is absorbed by the vendor. There is no negotiation. The owner described it plainly: "It's my way or the highway."
-
-ESG compliance, in this context, is not a values question. It is a vendor viability question. Tata Motors is building out a platform called Prakriti, developed with TCS, to track emissions across its vendor ecosystem. When (not if) it goes live, vendors who cannot provide electricity consumption data, GHG emissions per process, and audit trails in digital format will be at risk. Our job is to make sure Utkal is ready.
-
-This changes how you think about the work. You are not advising a company that wants to be sustainable. You are advising a company that needs to survive, and sustainability is becoming a precondition for that.
+I said yes before fully understanding what any of that would involve on a shop floor.
 
 ---
 
-## What two visits looked like
+There is a version of this project that stays comfortably in the classroom. You pull production records, build an emissions baseline in Excel, run the numbers on solar economics, write up a report, present it. That version exists and we did parts of it. The part that actually taught me something was the floor.
 
-We visited the factory twice. The [first visit on January 23](https://github.com/junejakushal/bas-utkal-project/blob/main/20250123_visit_report.md) was orientation: understanding the production process, mapping the data gaps, and beginning to see where the ESG exposures actually were. The [second visit on February 18](https://github.com/junejakushal/bas-utkal-project/blob/main/20260218_visit_report.md) was presentation: we came back with findings, recommendations, and a proposed digital roadmap.
+Walking through the plant on the first visit, you realize quickly that the competencies you brought in are not quite the competencies that are useful here. My Goldman Sachs background meant I knew how to read a compliance framework and construct an audit trail. My CS background meant I could think about data pipelines and system design. Neither of these told me anything about why a worker without a welding mask is making a rational decision given the workflow incentives in front of him, or why the semi-paint booth has open sides, or how the owner had already thought through the solar economics before we arrived.
 
-The gap between what I expected the second visit to look like and what it actually was is probably the most useful thing to write about.
+What prepared me for this was not the technical background. It was the disposition the technical background had trained: get comfortable being in rooms where you do not know the most important things yet, ask the question that reveals you do not know, and stay in the conversation long enough to actually learn something.
 
-I expected pushback on the recommendations. I expected the owner to be skeptical about solar economics, resistant to the electric forklift analysis, cautious about the APFC panel investment. Instead, he told us all four were already on his radar. The 150 kW solar PO had been placed. The APFC work was pending internally. LED lighting was 80 percent complete. The electric forklift evaluation had started but stalled.
-
-The lesson: when you advise a company that has been running for 57 years, the problem is rarely that they have not thought of the solution. The problem is implementation, sequencing, and organizational bandwidth.
-
-Where we added value was not in the recommendations themselves. It was in the structure: a 3D prioritization matrix sorting initiatives by cost, time, and effort; a per-tipper emissions baseline built from 20 months of production records; a calculated payback period for each intervention. Making tacit knowledge explicit, quantified, and presentable to a Tata Motors audit team. That is the actual work.
+The GS compliance work taught me to look for the gap between the process as documented and the process as practiced. That instinct transferred. The gap on the shop floor was everywhere.
 
 ---
 
-## The number that was wrong
+The dashboard is where the tech background actually showed up.
 
-We built a waterfall diagram showing per-tipper cost reduction from our four environmental recommendations. The owner interrupted us to point out that our baseline electricity cost was off.
+The client wanted to skip phased implementation and go directly to an app-based data entry system integrated with a live production and emissions dashboard. His dealership operations already run on full digital automation. He saw no reason to spend a year getting there via Excel. He was right.
 
-We had estimated 9.5 rupees per unit of electricity. He said it was 6 to 6.5. We had calculated the energy cost per tipper at 35,000 rupees. He said his monthly electricity bill divided by monthly production gave a number closer to 2,264.
+What would normally take weeks of scoping and back-and-forth, I started prototyping the same day using Claude. Not to ship production code, but to get something visual and interactive in front of the client fast, so the conversation could move from what we planned to build to what he actually wanted. That compression matters enormously in a consulting context. Clients respond to something real in a way they cannot respond to a slide. When you can show a working data flow and a rough dashboard in an afternoon, the feedback loop tightens from weeks to hours.
 
-The four recommendations remain valid. The savings are real. But the denominator was wrong, which meant the per-tipper impact figures were wrong, which undermined the financial case at exactly the moment we needed it to land.
-
-This is a mundane lesson that is easy to forget in the comfort of working from shared Excel files. The number you are using to calculate everything else needs to be verified with the person who signs the electricity bills. We will correct it. But it should not have gone into the presentation unchecked.
+This is the version of AI-assisted work that I find genuinely interesting: not replacing the thinking, but collapsing the distance between an idea and something you can put in front of a human and watch them react to. The shop floor context made it more vivid because the feedback was immediate and the stakes were concrete. Either the line manager can enter the data in thirty seconds at the end of a shift, or the system fails. No abstraction available.
 
 ---
 
-## What you cannot fix
+In [The Plate is Wobbling](/blog/the-plate-is-wobbling), I wrote about a day doing market immersion with a sales team for my Unilever internship. Walking through neighbourhood shops, watching a distribution rep operate from memory and instinct, seeing the gap between how a tool is designed and how it is used on the ground. The MSME project has the same texture.
 
-The semi-paint booth has open sides. Paint fumes and welding exhaust leave through those openings directly into the air. There are 115 welding machines. Installing centralized ducting for all of them is operationally impossible at current margins.
+Both experiences are variations of the same practice: showing up somewhere you do not fully understand, staying long enough to get past the surface, and paying attention to the things that do not fit the framework. The sales rep who knew every shopkeeper's buying patterns. The plant owner who had already evaluated all four of our environmental recommendations. In both cases, the person on the ground had knowledge that no briefing document had captured and no model had encoded.
 
-The owner described this as an occupational hazard of the tipper industry. He is not wrong. It is also a Scope 1 emissions source that we cannot reduce, only estimate and report.
-
-This is where the classroom version of ESG and the factory floor version diverge most sharply. In the classroom, emissions are a problem to be solved. On the floor, some of them are structural features of the production process. The honest answer is: monitor it, build a proxy measurement methodology (emissions per electrode, per paint can, per store issue), and put it in the sustainability report as a known gap with a stated measurement approach.
-
-The strategy professor might call this greenwashing. The plant operator would call it the difference between a report that reflects reality and one that does not get filed at all.
+What the MBA provides, if you use it right, is repeated structured exposure to this. Finance, operations, marketing, strategy: each domain has its own version of the gap between the model and the room. Learning to navigate that gap is the actual skill.
 
 ---
 
-## The digital decision
+Sustainability as a concept is easy to be cynical about. In the Tier 2 manufacturing context it lands differently. Tata Motors is building out a platform to track emissions across its vendor ecosystem. When it goes live, vendors who cannot provide structured emissions data in a specified format will be at risk. For a company like Utkal, with 95 percent revenue concentration in one client, ESG compliance is not a values question. It is a survival question.
 
-We proposed a three-phase digital roadmap: Excel to dashboard, dashboard to ERP, ERP integration. Standard change management logic. Manage the transition, do not overwhelm the organization.
+That reframes the work. You are not trying to convince anyone that sustainability matters. You are helping a 57-year-old plant become legible to a reporting infrastructure that is being built around it whether it is ready or not. The emissions that cannot be reduced (welding fumes, paint VOCs, the diesel crane with no electric alternative) go into the report as measured, monitored, and acknowledged. The ones that can be reduced (electricity through solar and efficiency measures, diesel forklifts) get a cost-benefit case and a roadmap.
 
-The owner rejected all three phases and asked us to go straight to app-based data entry by line managers at each production stage, feeding directly into a live dashboard.
-
-His reasoning: the dealership operations he runs on the side (Mahindra, Kia) are fully automated with mobile apps. All the line managers at Utkal have smartphones. He sees no reason to take two years getting there via Excel.
-
-I spent some time thinking about whether he was right. The standard argument for phased adoption is that organizations need time to build data literacy and process discipline before the technology is meaningful. The argument against it, in this case, is that the owner already has the data literacy from adjacent operations, the workforce has the devices, and each additional phase is a year of delayed Prakriti readiness.
-
-He was right. We are building the app.
+The interesting ethical question is not whether this is real sustainability. It is whether making it measurable and reported is a meaningful step toward it, or a substitute for it. I do not have a clean answer. I think it is both, simultaneously, and that the honest thing is to say so.
 
 ---
 
-## What I am still working through
+In [Prepared to Play](/blog/prepared-to-play), I wrote that deep preparation in the fundamentals is what makes wandering in the applications rich rather than shallow. The CS background, the Goldman compliance work, the coursework: none of it prepared me for a tipper fabrication plant specifically. All of it prepared me to be useful in a room I had never been in before.
 
-The social side of ESG is harder to think about clearly than the environmental side.
+The wobbling plate was interesting to Feynman because he had prepared obsessively in the underlying physics. He was not starting from nothing. He had the foundation that made the curiosity generative.
 
-Utkal has roughly 280 to 300 contractual workers. Many are classified as unskilled or semi-skilled to reduce compliance costs. The safety observations from the first visit were significant: absent PPE, no fire hydrant line, workers walking under active EOT cranes, chemical storage without proper zoning. The owner's response was that Tata Motors conducts weekly audits and they have had zero incidents this year.
-
-I do not know how to think about that. The audit passes. The incidents are zero. The conditions are also genuinely dangerous. Whether the audit is a ceiling (meet the standard, stop there) or a floor (meet the standard, then go further) is a governance question, not a measurement question, and I do not think I have a clean answer yet.
-
-The fire hydrant line is being implemented. The AI-based CCTV system for PPE compliance is being scoped. These are real improvements. Whether they add up to a safe workplace or a compliant one is a distinction I am still sitting with.
+That is what I keep finding in the MBA: situations where the foundations are visible in retrospect, where the preparation shows up as surplus rather than script. The live project is the application. The plate is wobbling. The equations are not the same ones, but the motion looks familiar.
 
 ---
 
-The work continues. I will keep updating the [project repo](https://github.com/junejakushal/bas-utkal-project) as we build out the dashboard and finalize the sustainability report. What I know so far is that this is more interesting, and more genuinely difficult, than any case study I have read.
-
-The factory floor is not a strategy problem. It is a real place, with real constraints, where real people work. The job is to be useful to it.
+The field notes and visit reports from this project are documented in the [project repository](https://github.com/junejakushal/bas-utkal-project) if you want the detail underneath this.
