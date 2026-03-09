@@ -2,7 +2,15 @@
 	import '../app.css';
 	import { page } from '$app/stores';
 
+	declare const __GIT_HASH__: string;
+	declare const __BUILD_TIME__: string;
+
 	let { children } = $props();
+
+	const hash = __GIT_HASH__;
+	const builtAt = new Date(__BUILD_TIME__).toLocaleDateString('en-US', {
+		year: 'numeric', month: 'long', day: 'numeric'
+	});
 
 	const links = [
 		{ href: '/', label: 'about' },
@@ -42,8 +50,17 @@
 	</main>
 
 	<footer class="border-t border-gray-100 mt-16">
-		<div class="max-w-2xl mx-auto px-6 py-8 text-center text-xs text-gray-400">
-			&copy; {new Date().getFullYear()} Kushal Juneja
+		<div class="max-w-2xl mx-auto px-6 py-8 text-center text-xs text-gray-400 space-y-1">
+			<div>&copy; {new Date().getFullYear()} Kushal Juneja</div>
+			<div>
+				Updated {builtAt} &middot;
+				<a
+					href="https://github.com/junejakushal/junejakushal.github.io/commit/{hash}"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="font-mono hover:text-gray-600 transition-colors"
+				>{hash}</a>
+			</div>
 		</div>
 	</footer>
 </div>
