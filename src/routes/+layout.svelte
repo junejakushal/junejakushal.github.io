@@ -50,17 +50,14 @@
 	</main>
 
 	<footer class="border-t border-gray-100 mt-16">
-		<div class="max-w-2xl mx-auto px-6 py-8 text-center text-xs text-gray-400 space-y-1">
-			<div>&copy; {new Date().getFullYear()} Kushal Juneja</div>
-			<div>
-				Updated {builtAt} &middot;
-				<a
-					href="https://github.com/junejakushal/junejakushal.github.io/commit/{hash}"
-					target="_blank"
-					rel="noopener noreferrer"
-					class="font-mono hover:text-gray-600 transition-colors"
-				>{hash}</a>
-			</div>
+		<div class="max-w-2xl mx-auto px-6 py-8 text-center text-xs text-gray-400">
+			Updated {builtAt} &middot;
+			<a
+				href="https://github.com/junejakushal/junejakushal.github.io/commit/{hash}"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="font-mono hover:text-gray-600 transition-colors"
+			>{hash}</a>
 		</div>
 	</footer>
 </div>

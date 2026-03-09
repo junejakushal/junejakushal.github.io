@@ -1,3 +1,13 @@
+<script lang="ts">
+	declare const __GIT_HASH__: string;
+	declare const __BUILD_TIME__: string;
+
+	const hash = __GIT_HASH__;
+	const builtAt = new Date(__BUILD_TIME__).toLocaleDateString('en-US', {
+		year: 'numeric', month: 'long', day: 'numeric'
+	});
+</script>
+
 <svelte:head>
 	<title>Kushal — About</title>
 </svelte:head>
@@ -52,4 +62,14 @@
 			</li>
 		</ul>
 	</div>
+
+	<p class="text-xs text-gray-400">
+		Updated {builtAt} &middot;
+		<a
+			href="https://github.com/junejakushal/junejakushal.github.io/commit/{hash}"
+			target="_blank"
+			rel="noopener noreferrer"
+			class="font-mono hover:text-gray-600 transition-colors"
+		>{hash}</a>
+	</p>
 </section>
