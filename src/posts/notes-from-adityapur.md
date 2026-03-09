@@ -2,10 +2,10 @@
 title = "Notes from Adityapur"
 date = "2026-03-09"
 description = "On volunteering for a live consulting project with an MSME in Jamshedpur, what curiosity without a background actually looks like, and what happens when you use Claude to prototype a sustainability dashboard on a shop floor."
-draft = true
+draft = false
 +++
 
-Every MBA program has some version of a live project: a real company, a real problem, a semester to do something useful. At XLRI it is called BAS. When this one was floated, I volunteered. An MSME in the manufacturing belt of Jamshedpur, working on ESG and a digital production dashboard.
+Every MBA program has some version of a live project: a real company, a real problem, a semester to do something useful. At XLRI it was floated in the BAS course. When this one was floated, I volunteered. An MSME in the manufacturing belt of Jamshedpur, working on ESG and a digital production dashboard.
 
 I had no operations background. No sustainability background. What I had was curiosity about what it would actually look like on the ground, and the good sense to recognise that the team around me did. Classmates who had worked in operations at Tata Steel and Hero. People who had reported on and advised around sustainability at Goldman. Faculty who are among the leading sustainability strategy thinkers in the country. I figured the honest move was to show up, stay close, and pay attention.
 
@@ -45,6 +45,4 @@ In [Prepared to Play](/blog/prepared-to-play), I wrote that deep preparation in 
 
 The wobbling plate was interesting to Feynman because he had the physics underneath him. I did not have the operations or the sustainability. But I had classmates who did, faculty who did, and enough of a technical foundation to be useful on the dashboard and the data side. The team is the preparation. The plate is still wobbling.
 
----
 
-*Field notes and visit reports from this project are in the [project repository](https://github.com/junejakushal/bas-utkal-project).*
