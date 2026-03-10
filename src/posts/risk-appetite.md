@@ -1,5 +1,5 @@
 +++
-title = "Risk Appetite"
+title = "Spinning Plates, Different Kitchens"
 date = "2026-03-10"
 description = "On talking to two CFO teams in one week, how the same phrase means opposite things depending on which balance sheet you are looking at, and what Damodaran looks like when the person citing him actually runs the numbers."
 draft = true
