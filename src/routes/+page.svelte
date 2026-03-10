@@ -63,13 +63,4 @@
 		</ul>
 	</div>
 
-	<p class="text-xs text-gray-400">
-		Updated {builtAt} &middot;
-		<a
-			href="https://github.com/junejakushal/junejakushal.github.io/commit/{hash}"
-			target="_blank"
-			rel="noopener noreferrer"
-			class="font-mono hover:text-gray-600 transition-colors"
-		>{hash}</a>
-	</p>
 </section>
