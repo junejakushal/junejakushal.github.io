@@ -2,7 +2,7 @@
 title = "Spinning Plates, Different Kitchens"
 date = "2026-03-10"
 description = "On talking to two CFO teams in one week, how the same phrase means opposite things depending on which balance sheet you are looking at, and what Damodaran looks like when the person citing him actually runs the numbers."
-draft = true
+draft = false
 +++
 
 For a Financial Management course at XLRI, our team got time with the CFO office of JSW Steel and separately with the corporate finance team at KEI Industries. Two calls, same week, same course, same questions roughly oriented around capital structure and risk.
