@@ -55,6 +55,13 @@
 				<span class="text-gray-500">Kushal Juneja</span>
 			</li>
 			<li>
+				<a href="https://x.com/junejakushal" class="text-gray-700 hover:text-gray-900 transition-colors" target="_blank" rel="noopener noreferrer">
+					X / Twitter
+				</a>
+				<span class="text-gray-400 mx-2">/</span>
+				<span class="text-gray-500">@junejakushal</span>
+			</li>
+			<li>
 				<a href="mailto:b25079@astra.xlri.ac.in" class="text-gray-700 hover:text-gray-900 transition-colors">
 					b25079@astra.xlri.ac.in
 				</a>
