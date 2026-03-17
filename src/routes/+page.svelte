@@ -15,7 +15,7 @@
 <section class="space-y-10">
 	<div>
 		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal Juneja</h1>
-		<p class="text-gray-500 text-sm">MBA @ XLRI · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
+		<p class="text-gray-500 text-sm">MBA @ XLRI Jamshedpur · Incoming Summer Intern @ Unilever · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
 	</div>
 
 	<div class="space-y-4 text-gray-700 leading-relaxed text-[15px]">
@@ -30,8 +30,7 @@
 		</p>
 		<p>
 			My interests span technology, finance, and sustainability. I'm currently exploring agentic AI,
-			scalable distributed systems, and the future of finance. Outside of work I'm learning French
-			and German, staying fit, and reading widely.
+			scalable distributed systems, and finance. Staying fit and reading widely.
 		</p>
 		<p class="text-gray-500 text-sm italic">
 			Overprepare. Always. You can't wing it and assume someone else will do it for you.
