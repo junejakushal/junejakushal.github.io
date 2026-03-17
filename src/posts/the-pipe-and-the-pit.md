@@ -2,7 +2,7 @@
 title = "The Pipe and the Pit"
 date = "2026-03-17"
 description = "On scope creep, cement pits, founders who make decisions without opening a deck, and whether measuring something is the same as improving it."
-draft = true
+draft = false
 +++
 
 We went in to build something simple. Track the number of units produced at each stage of the factory floor. From that single number, you can calculate emissions per tipper, build a Scope 1 and 2 baseline, and give the client the data infrastructure they need for the sustainability report. Clean. Bounded. Achievable in a semester.
