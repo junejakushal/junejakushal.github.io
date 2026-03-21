@@ -2,7 +2,7 @@
 title = "The Messy Reactor"
 date = "2026-03-21"
 description = "On clearing CFA Level 1, deciding not to sit for Level 2, and why the inelegant setup is where the energy is right now."
-draft = true
+draft = false
 +++
 
 Richard Feynman spent a summer in college as the entire chemistry department of a company called Metaplast Corporation. Their product was metal-plated plastic. Their problem was getting the plating to stick. His title was Chief Research Chemist. His staff was himself.
