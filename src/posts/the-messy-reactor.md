@@ -23,7 +23,7 @@ The mess was not a failure of resources. It was a sign that something real was h
 
 ---
 
-I cleared CFA Level 1 last month. I am not sitting for Level 2.
+I cleared CFA Level 1 in the Feb 2026 window. I am not sitting for Level 2.
 
 That is not a complaint about the curriculum. The curriculum is good. It is internally consistent in a way that most things are not. It knows what it is.
 
