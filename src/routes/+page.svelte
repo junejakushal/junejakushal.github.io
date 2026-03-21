@@ -15,7 +15,7 @@
 <section class="space-y-10">
 	<div>
 		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal Juneja</h1>
-		<p class="text-gray-500 text-sm">MBA @ XLRI Jamshedpur · Incoming Summer Intern @ Unilever · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
+		<p class="text-gray-500 text-sm">MBA @ XLRI Jamshedpur · Incoming Summer Intern @ Unilever · CFA L1 Cleared · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
 	</div>
 
 	<div class="space-y-4 text-gray-700 leading-relaxed text-[15px]">
