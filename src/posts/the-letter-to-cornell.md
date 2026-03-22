@@ -1,17 +1,17 @@
 +++
-title = "The Letter to Buffalo"
+title = "The Letter to Cornell"
 date = "2026-03-22"
-description = "On joining CRISP, why the thing that cannot be handed to an agent is the thing worth doing, and what Feynman's letter to Buffalo has to do with it."
+description = "On joining CRISP, why the thing that cannot be handed to an agent is the thing worth doing, and what Feynman's letter to Cornell has to do with it."
 draft = true
 +++
 
-The story goes like this. Feynman was at Caltech when the offer came from Buffalo. Serious money. Serious resources. A formal appointment at a serious institution. By every conventional metric, the kind of offer you do not turn down.
+The story goes like this. Feynman was at Caltech when the offer came from Cornell. Serious money. Serious resources. A formal appointment at a serious institution. By every conventional metric, the kind of offer you do not turn down.
 
 He turned it down.
 
 What changed his mind, as he tells it, was something that happened in the pit — the informal lounge at Caltech's physics building where people gathered between seminars and after talks. A biology student stopped him and started describing an experiment. Not a physics experiment. Biology. Feynman had not asked about it. It was not on his schedule. The student was just excited and Feynman happened to be there.
 
-That was it. That was the thing Buffalo could not put in the offer letter: what a random Tuesday afternoon felt like when the ambient intellectual density of the place was high enough to make accidental contact with you.
+That was it. That was the thing Cornell could not put in the offer letter: what a random Tuesday afternoon felt like when the ambient intellectual density of the place was high enough to make accidental contact with you.
 
 He wrote the letter. He stayed.
 
@@ -51,7 +51,7 @@ Back to Feynman and the pit.
 
 The biology student did not teach Feynman biology. He did not give Feynman anything formally transferable. What he did was remind Feynman that the right environment produces collisions you did not plan for, and that those collisions are what the formal offer letter cannot measure.
 
-Buffalo was optimising along one axis. Feynman was optimising along a different one entirely: the quality of what an ordinary afternoon produces when the people around you are working seriously on hard things.
+Cornell was optimising along one axis. Feynman was optimising along a different one entirely: the quality of what an ordinary afternoon produces when the people around you are working seriously on hard things.
 
 Nineteen people across two cities, under genuine pressure, with real stakes and real consequences — that is the pit. Not because of what the role says on paper. Because of who is in the room and what is at stake when it matters.
 

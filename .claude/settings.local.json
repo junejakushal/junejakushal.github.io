@@ -12,7 +12,15 @@
       "Bash(node:*)",
       "Bash(gh:*)",
       "Bash(git:*)",
-      "WebFetch(domain:csvoss.com)"
+      "WebFetch(domain:csvoss.com)",
+      "WebSearch",
+      "WebFetch(domain:www.steveglaveski.com)",
+      "WebFetch(domain:www.shortform.com)",
+      "WebFetch(domain:glaveski.medium.com)",
+      "WebFetch(domain:sistemas.fciencias.unam.mx)",
+      "WebFetch(domain:www.chem.fsu.edu)",
+      "WebFetch(domain:www.willpatrick.co.uk)",
+      "WebFetch(domain:jimbouman.com)"
     ]
   }
 }
