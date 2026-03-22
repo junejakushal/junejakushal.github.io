@@ -2,7 +2,7 @@
 title = "The Letter to Cornell"
 date = "2026-03-22"
 description = "On joining CRISP, why the thing that cannot be handed to an agent is the thing worth doing, and what Feynman's letter to Cornell has to do with it."
-draft = true
+draft = false
 +++
 
 The story goes like this. Feynman was at Caltech when the offer came from Cornell. Serious money. Serious resources. A formal appointment at a serious institution. By every conventional metric, the kind of offer you do not turn down.
