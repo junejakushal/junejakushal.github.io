@@ -2,7 +2,7 @@
 title = "The Name of the Bird"
 date = "2026-04-15"
 description = "On two weeks at Unilever, what HUL's marketing dashboards have to do with latent space geometry, and the question nobody has answered yet."
-draft = True
+draft = false
 +++
 
 Feynman's father taught him early not to confuse knowing the name of something with knowing the thing itself. On their walks together, he would point to a bird and say: that is a brown-throated thrush. In Portuguese it is this word. In Italian, another. In Japanese, a third. Now you know the name in every language in the world. You still know nothing about the bird.
