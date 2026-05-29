@@ -31,9 +31,9 @@ The decisions I am watching made in rooms in Mumbai and Bangalore are not calibr
 
 ---
 
-I had no interest in FMCG when I applied here. I slept through marketing lessons at XL. I missed every placement preparation session that involved brand management, consumer research, or retail strategy. I came in through a different door entirely, thinking the internship would be about connecting technology to business operations.
+I came in to Unilever through a different door entirely, thinking the internship would be about connecting technology to business operations.
 
-Instead I was placed in performance marketing. Talking to brand managers and media planners about offtake numbers, on-shelf availability, share of voice, return on investment for digital spend. Metrics I had only seen in cleaned-up case studies, now live, contested, and consequential.
+Instead I was talking to brand managers and media planners about offtake numbers, on-shelf availability, share of voice, return on investment for digital spend. Metrics I had only seen in cleaned-up case studies, now live, contested, and consequential.
 
 The agentic AI work is real and it is moving fast inside the organisation. Priya Nair and Fernando Fernandez have been explicit about the AI-first direction. But the people building agentic systems have to understand what a brand manager actually does before they can automate any part of it. What decisions they make on what cadence. What signal they are actually responding to when they shift spend between channels. You cannot MECE-ify a workflow you do not understand. Think MECE, speak MECE, act MECE: easy to say, only possible after you have mapped the thing you are trying to be mutually exclusive and collectively exhaustive about.
 
