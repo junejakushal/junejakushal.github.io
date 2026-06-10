@@ -2,7 +2,7 @@
 title = "Leaving the Plate Still Wobbling"
 date = "2026-05-30"
 description = "Eight weeks at HUL, from charter to blockade to multi-agent orchestration, and what Feynman's summer job at Metaplast has to do with selling your own project back to yourself."
-draft = false
+draft = true
 +++
 
 Richard Feynman spent a summer in college as the entire chemistry department of Metaplast Corporation. Their problem was getting metal plating to stick to plastic. His staff was himself.
