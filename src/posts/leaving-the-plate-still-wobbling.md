@@ -64,3 +64,7 @@ In [The Eye Level](/blog/the-eye-level), I wrote about the kirana owner who know
 The Metaplast ad worked because the fiddling was real. I leave behind both: the system, and the story that helps the next person carry it.
 
 The plate is still wobbling. I am leaving it that way on purpose.
+
+---
+
+*With this the blog is archived. I am back in XLRI doing marketing & finance specialisation, the live consulting project in Jamshedpur & agentic AI self-study on my own time, case competitions when they come up. The plan is to rotate through sales, marketing, finance, legal, tech, operations and warehousing at HUL next year, one lens at a time, and keep enough open problems loaded that the connections start finding me.*
