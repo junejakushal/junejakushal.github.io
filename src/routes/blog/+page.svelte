@@ -9,7 +9,7 @@
 <section class="space-y-10">
 	<div>
 		<h1 class="text-2xl font-semibold tracking-tight mb-1">Writing</h1>
-		<p class="text-gray-500 text-sm">Occasional thoughts on software and other things.</p>
+		<p class="text-gray-500 text-sm">Field notes and experiences.</p>
 	</div>
 
 	<ul class="space-y-8">

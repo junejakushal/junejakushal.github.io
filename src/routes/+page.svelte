@@ -15,22 +15,16 @@
 <section class="space-y-10">
 	<div>
 		<h1 class="text-2xl font-semibold tracking-tight mb-1">Kushal Juneja</h1>
-		<p class="text-gray-500 text-sm">MBA @ XLRI Jamshedpur · Incoming Summer Intern @ Unilever · CFA L1 Cleared · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
+		<p class="text-gray-500 text-sm">MBA @ XLRI · ULIP Intern '26 @ Unilever · ex-Goldman Sachs · CS @ IIIT-Delhi</p>
 	</div>
 
 	<div class="space-y-4 text-gray-700 leading-relaxed text-[15px]">
 		<p>
-			I'm an MBA student at XLRI Jamshedpur with a background in Computer Science from IIIT-Delhi,
-			where my thesis sat at the intersection of Climate Science and Deep Learning. Before business
-			school, I was an Analyst at Goldman Sachs in their Global Compliance and Engineering division.
-		</p>
-		<p>
-			This summer I'll be joining the Unilever team as part of my MBA internship, excited to work
-			at the intersection of business and technology at scale.
-		</p>
-		<p>
-			My interests span technology, finance, and sustainability. I'm currently exploring agentic AI,
-			scalable distributed systems, and finance. Staying fit and reading widely.
+			I'm an MBA student at XLRI Jamshedpur and recently completed my ULIP internship at Unilever,
+			working at the intersection of Customer Development and Agentic AI at scale. Before business school, I was
+			an Analyst at Goldman Sachs in their Global Compliance and Engineering division, and I studied
+			Computer Science at IIIT-Delhi, where my thesis sat at the intersection of Climate Science and
+			Deep Learning. I am currently exploring Marketing, Finance, and following advances in the field of Agentic AI. 
 		</p>
 		<p class="text-gray-500 text-sm italic">
 			Overprepare. Always. You can't wing it and assume someone else will do it for you.
@@ -63,8 +57,10 @@
 			</li>
 			<li>
 				<a href="mailto:b25079@astra.xlri.ac.in" class="text-gray-700 hover:text-gray-900 transition-colors">
-					b25079@astra.xlri.ac.in
+					Email
 				</a>
+				<span class="text-gray-400 mx-2">/</span>
+				<span class="text-gray-500">b25079@astra.xlri.ac.in</span>
 			</li>
 		</ul>
 	</div>

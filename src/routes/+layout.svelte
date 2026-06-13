@@ -15,6 +15,7 @@
 	const links = [
 		{ href: '/', label: 'about' },
 		{ href: '/blog', label: 'blog' },
+		{ href: '/writings', label: 'writings' },
 	];
 </script>
 
@@ -34,7 +35,7 @@
 				{#each links as link}
 					<a
 						href={link.href}
-						class="text-sm transition-colors {$page.url.pathname === link.href || ($page.url.pathname.startsWith('/blog') && link.href === '/blog')
+						class="text-sm transition-colors {$page.url.pathname === link.href || (link.href !== '/' && $page.url.pathname.startsWith(link.href))
 							? 'text-gray-900 font-medium'
 							: 'text-gray-500 hover:text-gray-900'}"
 					>
