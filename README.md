@@ -40,3 +40,26 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## Preview commands
+
+This project uses `pnpm`.
+
+Start the development server (live reload, draft posts shown):
+
+```sh
+pnpm run dev
+```
+
+Then open the printed URL (usually `http://localhost:5173`).
+
+Build and preview the production site:
+
+```sh
+pnpm run build
+pnpm run preview
+```
+
+Then open the printed URL (usually `http://localhost:4173`).
+
+The MDX test page with the interactive digit canvas is at `/writings/writings-tab-test`.
