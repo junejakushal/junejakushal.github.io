@@ -30,6 +30,7 @@
 	},
 	"dependencies": {
 		"mermaid": "^11.12.3",
+		"onnxruntime-web": "^1.27.0",
 		"smol-toml": "^1.6.0"
 	}
 }

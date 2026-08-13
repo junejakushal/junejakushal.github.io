@@ -1,11 +1,11 @@
 export const prerender = true;
 
 export async function load() {
-	const modules = import.meta.glob('/src/posts/*.md', { eager: true });
+	const modules = import.meta.glob(['/src/posts/*.md', '/src/posts/*.mdx'], { eager: true });
 
 	const posts = Object.entries(modules)
 		.map(([path, mod]: [string, any]) => {
-			const slug = path.split('/').pop()!.replace('.md', '');
+			const slug = path.split('/').pop()!.replace(/\.mdx?$/, '');
 			return {
 				slug,
 				title: mod.metadata?.title ?? slug,
@@ -15,7 +15,7 @@ export async function load() {
 				draft: mod.metadata?.draft ?? false,
 			};
 		})
-		.filter((post) => !post.draft);
+		.filter((post) => import.meta.env.DEV || !post.draft);
 
 	// Pinned posts always first, then by date descending
 	posts.sort((a, b) => {

@@ -1,11 +1,5 @@
 <script lang="ts">
-	const writings: {
-		title: string;
-		description?: string;
-		href: string;
-		date: string;
-		type: 'pdf' | 'gist';
-	}[] = [];
+	let { data } = $props();
 </script>
 
 <svelte:head>
@@ -18,20 +12,15 @@
 		<p class="text-gray-500 text-sm">Hands-on work, shared online.</p>
 	</div>
 
-	{#if writings.length > 0}
+	{#if data.writings.length > 0}
 		<ul class="space-y-8">
-			{#each writings as writing}
+			{#each data.writings as writing}
 				<li>
-					<a href={writing.href} class="group block space-y-1" target="_blank" rel="noopener noreferrer">
+					<a href="/writings/{writing.slug}" class="group block space-y-1">
 						<div class="flex items-baseline justify-between gap-4">
-							<div class="flex items-baseline gap-2">
-								<h2 class="text-[15px] font-medium text-gray-900 group-hover:text-gray-600 transition-colors">
-									{writing.title}
-								</h2>
-								<span class="text-[10px] font-medium tracking-widest uppercase text-gray-400 border border-gray-200 rounded px-1.5 py-0.5 leading-none">
-									{writing.type}
-								</span>
-							</div>
+							<h2 class="text-[15px] font-medium text-gray-900 group-hover:text-gray-600 transition-colors">
+								{writing.title}
+							</h2>
 							<time class="text-xs text-gray-400 shrink-0" datetime={writing.date}>
 								{new Date(writing.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
 							</time>

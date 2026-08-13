@@ -7,10 +7,10 @@ import { parse as parseToml } from 'smol-toml';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	extensions: ['.svelte', '.md'],
+	extensions: ['.svelte', '.md', '.mdx'],
 	preprocess: [
 		mdsvex({
-			extensions: ['.md'],
+			extensions: ['.md', '.mdx'],
 			frontmatter: {
 				type: 'toml',
 				marker: '+',

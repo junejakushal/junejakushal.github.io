@@ -11,5 +11,8 @@ export default defineConfig({
 	define: {
 		__GIT_HASH__: JSON.stringify(gitHash),
 		__BUILD_TIME__: JSON.stringify(buildTime),
-	}
+	},
+	resolve: {
+		conditions: ['onnxruntime-web-use-extern-wasm', 'module', 'browser', 'default'],
+	},
 });

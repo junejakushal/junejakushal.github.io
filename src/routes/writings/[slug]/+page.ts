@@ -3,18 +3,18 @@ import { error } from '@sveltejs/kit';
 export const prerender = true;
 
 export async function load({ params }) {
-	const modules = import.meta.glob(['/src/posts/*.md', '/src/posts/*.mdx']);
+	const modules = import.meta.glob(['/src/writings/*.md', '/src/writings/*.mdx']);
 
-	const postModule = modules[`/src/posts/${params.slug}.md`] ?? modules[`/src/posts/${params.slug}.mdx`];
+	const writingModule = modules[`/src/writings/${params.slug}.md`] ?? modules[`/src/writings/${params.slug}.mdx`];
 
-	if (!postModule) {
-		throw error(404, 'Post not found');
+	if (!writingModule) {
+		throw error(404, 'Writing not found');
 	}
 
-	const mod = await postModule() as any;
+	const mod = await writingModule() as any;
 
 	if (!import.meta.env.DEV && mod.metadata?.draft) {
-		throw error(404, 'Post not found');
+		throw error(404, 'Writing not found');
 	}
 
 	return {
@@ -26,7 +26,7 @@ export async function load({ params }) {
 }
 
 export async function entries() {
-	const modules = import.meta.glob(['/src/posts/*.md', '/src/posts/*.mdx'], { eager: true });
+	const modules = import.meta.glob(['/src/writings/*.md', '/src/writings/*.mdx'], { eager: true });
 	return Object.entries(modules)
 		.filter(([, mod]: [string, any]) => import.meta.env.DEV || !mod.metadata?.draft)
 		.map(([path]) => ({
