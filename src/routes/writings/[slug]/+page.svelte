@@ -1,23 +1,35 @@
 <script lang="ts">
-	let { data } = $props();
+  import type { PageData } from './$types';
+  export let data: PageData;
+  const { article } = data;
+  const Component = article.component;
+  const metadata = article.metadata || {};
 </script>
 
 <svelte:head>
-	<title>{data.title} — Kushal</title>
-	{#if data.description}
-		<meta name="description" content={data.description} />
+	{#if metadata.title}
+		<title>{metadata.title} — Kushal</title>
+	{/if}
+	{#if metadata.description}
+		<meta name="description" content={metadata.description} />
 	{/if}
 </svelte:head>
 
 <article>
-	<header class="mb-12 space-y-2">
-		<h1 class="text-2xl font-semibold tracking-tight">{data.title}</h1>
-		<div class="flex items-center gap-3 text-sm text-gray-400">
-			<time datetime={data.date}>
-				{new Date(data.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-			</time>
-		</div>
-	</header>
+	{#if metadata.title || metadata.date}
+		<header class="mb-12 space-y-2">
+			{#if metadata.title}
+				<h1 class="text-2xl font-semibold tracking-tight">{metadata.title}</h1>
+			{/if}
+			{#if metadata.date}
+				<div class="flex items-center gap-3 text-sm text-gray-400">
+					<time datetime={metadata.date}>
+						{new Date(metadata.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+					</time>
+				</div>
+			{/if}
+		</header>
+	{/if}
 
 	<div class="prose prose-gray prose-sm max-w-none
 		prose-headings:font-semibold prose-headings:tracking-tight
@@ -26,12 +38,7 @@
 		prose-pre:bg-gray-50 prose-pre:border prose-pre:border-gray-200
 		prose-blockquote:border-l-gray-300 prose-blockquote:text-gray-600
 		prose-hr:border-gray-200">
-		<svelte:component this={data.content} />
+		<svelte:component this={Component} />
 	</div>
 
-	<div class="mt-16 pt-8 border-t border-gray-100">
-		<a href="/writings" class="text-sm text-gray-500 hover:text-gray-900 transition-colors">
-			&larr; All writings
-		</a>
-	</div>
 </article>
