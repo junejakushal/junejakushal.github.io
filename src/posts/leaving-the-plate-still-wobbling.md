@@ -67,4 +67,4 @@ The plate is still wobbling. I am leaving it that way on purpose.
 
 ---
 
-*With this the blog is archived. I am back in XLRI doing marketing & finance specialisation, the live consulting project in Jamshedpur & agentic AI self-study on my own time, case competitions when they come up. The plan is to rotate through sales, marketing, finance, legal, tech, operations and warehousing at HUL next year, one lens at a time, and keep enough open problems loaded that the connections start finding me.*
+*I am back in XLRI doing marketing & finance specialisation, the live consulting project in Jamshedpur & agentic AI self-study on my own time, case competitions when they come up. The plan is to rotate through sales, marketing, finance, legal, tech, operations and warehousing at HUL next year, one lens at a time, and keep enough open problems loaded that the connections start finding me.*
