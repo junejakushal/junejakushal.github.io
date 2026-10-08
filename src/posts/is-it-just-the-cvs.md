@@ -87,6 +87,16 @@ Is it just the CVs?
 
 ---
 
+When a junior gets hurt in their dorm.
+
+Their batchmates have classes, placement activities, a dozen reasons to be somewhere else. None of them help.
+
+Surely it is just the CVs.
+
+Then why are their mentor and co-mentor the ones sitting with them in the hospital?
+
+---
+
 When the team prints more than 6,000 CVs.
 
 Every one of them gets stamped. Every one goes into a folder. Then the folders go out, one to every junior, by hand, with the same three words each time: you've got this.
